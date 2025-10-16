@@ -1,0 +1,7 @@
+path: C:/Users/souga/OneDrive/Tutorial/yolo-v8-general/dataset # provide the absolute path of the dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3 # please provide the number of classes here(remove 3 and put)
+names: ['class1', 'class2', 'class3'] # provide the name of the classes inside the [] within ''
