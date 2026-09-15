@@ -1,4 +1,4 @@
-<img width="2311" height="1490" alt="dataset_structure" src="https://github.com/user-attachments/assets/e70a369e-0bf4-4b5f-82cd-11b1f7a8459f" /># yolo-v8-genral
+
 In this repository one can do object detection by yolo-v8 just replacing  the data set and the path
 
 # create the folder where you are going to work
