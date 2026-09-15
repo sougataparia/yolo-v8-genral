@@ -50,3 +50,36 @@ To know the model parameters and the model summary run summary.py
 
 # Datas during training
 All the datas will be stored as of standard practices on the sepearte folders.
+
+
+
+## How to Install and Run
+
+### Option 1: 1-Click Setup (Windows Only - Easiest)
+If you are on a Windows computer, you can run this project without ever touching a terminal.
+
+1. Click the green **Code** button at the top of this page and select **Download ZIP**.
+2. Extract the downloaded ZIP file to a folder on your computer.
+3. Open the extracted folder and double-click the **`Run_Project.bat`** file.
+4. The script will automatically install all requirements and launch the object detection program!
+
+### Option 2: Terminal / VS Code Setup (Mac, Linux, Windows)
+If you prefer using the command line, follow these steps:
+
+1. Open your terminal (or VS Code terminal).
+2. Download the code by running:
+
+   git clone [https://github.com/sougataparia/yolo-v8-genral.git](https://github.com/sougataparia/yolo-v8-genral.git)
+  
+3. move to folder
+      cd yolo-v8-genral
+
+4. Install the required libraries:
+     pip install -r requirements.txt
+
+5. Run the detection script:
+      before that change the necessary path in config.yaml file and if you want to use other yolo version, then change in main file in the model.
+      run main.py
+
+
+# Happy coding #
