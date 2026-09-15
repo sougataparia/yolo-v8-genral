@@ -1,4 +1,4 @@
-# yolo-v8-genral
+<img width="2311" height="1490" alt="dataset_structure" src="https://github.com/user-attachments/assets/e70a369e-0bf4-4b5f-82cd-11b1f7a8459f" /># yolo-v8-genral
 In this repository one can do object detection by yolo-v8 just replacing  the data set and the path
 
 # create the folder where you are going to work
@@ -8,15 +8,8 @@ inside that put your data set.
 ## Structure of Data-set
 The data set must be in yolo format.
 let us assume that the dataset folder name is "dataset"
-dataset
-  ---images
-        ---train
-        ---test
-        ---val
-  ---labels
-        ---train
-        ---test
-        ---val
+The structure of the dataset must be same like given in the image bellow
+![Object Detection Example](dataset_structure.png)
 
 inside the subfolders of images, images will be there and inside the subfolders of labels labelled files will be there.
 
